@@ -9,11 +9,11 @@ cask "deskcrumbs" do
 
   livecheck do
     url "https://deskcrumbs.com/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Deskcrumbs.app"
 
