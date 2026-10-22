@@ -1,6 +1,6 @@
 cask "deskcrumbs" do
-  version "0.9.1"
-  sha256 "b5c3e1b60faee30de066bc1af6e4a3426accb7045fb0532fc9113e4a2fc683bc"
+  version "0.9.2"
+  sha256 "f716fb10e100e2030572bde986b3df123c46d586f0fbfdd286f74c8efd48eabe"
 
   url "https://deskcrumbs.com/releases/Deskcrumbs-#{version}.dmg"
   name "Deskcrumbs"
